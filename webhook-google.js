@@ -1,4 +1,4 @@
-// webhook-google.js - Vercel serverless function with proper Chromium setup
+// api/webhook-google.js - Vercel serverless function with proper Chromium setup
 import puppeteer from "puppeteer-core";
 import { GoogleSpreadsheet } from "google-spreadsheet";
 import { JWT } from "google-auth-library";
