@@ -1,12 +1,12 @@
 {
   "functions": {
-    "api/webhook.js": {
+    "webhook-google.js": {
       "maxDuration": 60
     }
   },
   "headers": [
     {
-      "source": "/api/webhook",
+      "source": "webhook-google",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
